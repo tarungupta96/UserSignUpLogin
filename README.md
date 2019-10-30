@@ -1,6 +1,6 @@
-# README
+# UserSignUpLogin
 
-UserLoginSignup is a basic app for login and signup of users using ruby on rails.
+UserSignUpLogin is a basic app for login and signup of users using ruby on rails.
 
 ## Usage
 
@@ -37,7 +37,7 @@ UserLoginSignup is a basic app for login and signup of users using ruby on rails
 
 ## Constraints
 
-There are some constraints that I have put on some fields while Sign Up 
+There are some constraints on the fields while Sign Up 
 
 |     Field      |               Descriptions                                 |
 |:---------------|:-----------------------------------------------------------|
@@ -52,7 +52,7 @@ There are some constraints that I have put on some fields while Sign Up
 
 ## Routes
 
-Here are the Routes that I used:
+Here are the Routes used:
 
 |     Path                 |               Descriptions                       |
 |:-------------------------|:-------------------------------------------------|
