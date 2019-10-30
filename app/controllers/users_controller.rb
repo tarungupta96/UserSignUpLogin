@@ -1,7 +1,4 @@
 class UsersController < ApplicationController
-  
-	#define an @user variable in the corresponding show action in the Users controller
-	#we use the find method on the User model to retrieve the user from the database
 	def show
 		@user = User.find(params[:id])
 	end
@@ -23,6 +20,7 @@ class UsersController < ApplicationController
                                    :password_confirmation)
     end
 
+    #for getting all the registered users
     def all
 		@user = User.all
 	end
