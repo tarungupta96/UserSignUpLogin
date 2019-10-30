@@ -19,14 +19,14 @@ UserLoginSignup is a basic app for login and signup of users using ruby on rails
 ### Functionality
 
 1.  The **Homepage** contains two things.
-    i)  Already registered users can login by only providing their correct email id and correct password and clicking on **login button**.
-    ii) New user can register itself by clicking on **signup button**.
+    1.  Already registered users can login by only providing their correct email id and correct password and clicking on **login button**.
+    2.  New user can register itself by clicking on **signup button**.
 2.  The **Signup** page asks fir the following data:     
-    i)  Name
-    ii) Email Id
-    iii)Password
-    iv) Password Confirmation
-    v)  Create account button
+    1.  Name
+    2.  Email Id
+    3.  Password
+    4.  Password Confirmation
+    5.  Create account button
 3.  After clicking on create account button the user will be registered in the database with the provided data.
 
 ### Versions
@@ -54,8 +54,8 @@ There are some constraints that I have put on some fields while Sign Up
 
 Here are the Routes that I used:
 
-|     Path       |               Descriptions                                 |
-|:-------------------------|:------------------------------------- -----------|
+|     Path                 |               Descriptions                       |
+|:-------------------------|:-------------------------------------------------|
 |**localhost:3000**        | Redirects to the Home page                       |
 |**localhost:3000/login**  | Redirects to the Home page                       |
 |**localhost:3000/signup** | Redirects to the SignUp page                     |
