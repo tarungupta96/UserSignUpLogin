@@ -35,7 +35,7 @@ UserLoginSignup is a basic app for login and signup of users using ruby on rails
 2.  Rails   :   6.0.0
 
 
-##Constraints
+## Constraints
 
 There are some constraints that I have put on some fields while Sign Up 
 
@@ -50,7 +50,7 @@ There are some constraints that I have put on some fields while Sign Up
 |**Password**    | Should be of minimum length 6                              |
 
 
-##Routes
+## Routes
 
 Here are the Routes that I used:
 
